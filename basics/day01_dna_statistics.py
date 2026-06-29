@@ -1,6 +1,6 @@
 # Count nucleotides in a DNA sequence
 sequence = "ATTACGGCTAGGGCTTAGAATTCGGATCGTAGCTAGCTTAGGGACTTAGCTTAGCTTAGGCGCGATTATATCGGATC"
-print(sequence)
+print("Sequence: ", sequence)
 print("Sequence lenght: ", len(sequence))
 print("A: ", sequence.count("A"))
 print("T: ", sequence.count("T"))
