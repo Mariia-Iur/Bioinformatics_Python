@@ -1,0 +1,15 @@
+gene_A = "AATATGACGGCTAGCTAGCTAAATTCGC"
+def reverse_complement(sequence):
+    reverse_sequnce = ""
+    sequence = sequence[::-1]
+    for nucleotide in sequence:
+        if nucleotide == "A":
+            reverse_sequnce = reverse_sequnce + "T"
+        elif nucleotide == "T":
+            reverse_sequnce = reverse_sequnce + "A"
+        elif nucleotide == "G":
+            reverse_sequnce = reverse_sequnce + "C"
+        elif nucleotide == "C":
+            reverse_sequnce = reverse_sequnce + "G"
+    return reverse_sequnce
+print(reverse_complement(gene_A))
