@@ -1,0 +1,6 @@
+sequence = str("ATTAGCGCGATGTGCTAGCTTAGCTACG")
+
+def gc_content(seq):
+    return (seq.count("G") + seq.count("C"))/len(seq)
+    
+print("GC content [%]:", gc_content(sequence)*100)
