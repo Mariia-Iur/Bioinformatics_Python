@@ -1,6 +1,4 @@
-sequence = "ATTAGCGCGATGTGCTAGCTTAGCTACG"
-
-def gc_content(seq):
-    return (seq.count("G") + seq.count("C"))/len(seq)
+def gc_content(sequence):
+    return (sequence.count("G") + sequence.count("C"))/len(seq)
     
 print("GC content [%]:", gc_content(sequence)*100)
